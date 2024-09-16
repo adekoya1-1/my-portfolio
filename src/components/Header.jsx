@@ -32,9 +32,6 @@ const Header = () => {
               <a href="#project" className="lin">
                 Projects
               </a>
-              <a href="#contact" className="lin">
-                Contacts
-              </a>
             </Nav>
           </Navbar.Collapse>
         </Container>

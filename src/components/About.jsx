@@ -12,7 +12,7 @@ const About = () => {
         </p>
       </div>
       <div className="five">
-        <h1 >3+</h1>
+        <h1 >2+</h1>
         <h6>Years of experience. Specialised in building websites, while ensuring a seamless web experience for end users.</h6>
       </div>
     </div>

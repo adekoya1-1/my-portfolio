@@ -28,6 +28,8 @@ margin-left: 51px
 }
 .wis{
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 @media (max-width: 1030px) {
     #hope{

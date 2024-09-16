@@ -3,21 +3,23 @@ import "../styles/home.css";
 import headshot from "../assets/my headshot.jpg";
 const Home = () => {
   return (
-    <div className="hom">
+    <div className="hom" >
       <div className="web">
         <div className="deve">
-          <h2 className="hi">Hello, i’m </h2>{" "}
-        </div>
-        <div className="name">
+          <h3 id="home">Hello, i’m </h3>
           <h2>Adekoya Precious </h2>
+          <p>
+            Freelance Fullstack developer I create seamless web experiences for
+            end-users.
+          </p>
         </div>
-        <div>
-          <p className="hip">Freelance Fullstack developer I create seamless web experiences for
-            end-users.</p>
-        </div>
-        <div>
-          <button className="but">About Me</button>
-          <button>Project</button>
+        <div className="batt">
+          <a href="#about" className="but">
+            <button >About Me</button>
+          </a>
+          <a className="but" href="#project">
+            <button>Project</button>
+          </a>
         </div>
       </div>
       <div>

@@ -1,97 +1,83 @@
-.name h2{
-    background-image: var(--Gradient-Heading, linear-gradient(90deg, #13B0F5 -2.06%, #E70FAA 100%));
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: var(--pop);
-    font-size: 58px;
-    font-style: normal;
-    font-weight: 700;
-}
 .im{
     border-radius: 50%;
     border: 9px solid #E70FAA;
     background: url(<path-to-image>) lightgray 50% / cover no-repeat;
     width: 310px;
 }
-.hom{
-    display: flex;
-    justify-content: space-between;
+.deve h2{
+   color:  #000;
+    font-family: var(--pop);
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
 }
-.hi{
-    color: var(--Solid-Heading, #42446E);
+.deve h3{
+    color: #000;
     font-family: var(--pop);
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
-    line-height: normal;
+
 }
-.hip{
-    color: var(--Solid-Heading, #42446E);
-    font-size: 18px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-}
-.hype{
-    color: var(--Solid-Heading, #42446E);
+.deve p{
+    color: #000;
     font-family: var(--pop);
-    font-size: 58px;
+    font-size: 18px;
     font-style: normal;
-    font-weight: 700;
-    line-height: 70px;
-    letter-spacing: -1px;
+    font-weight: 500;
+    width: 40%;
+}
+.but button{
+    border-radius: 8px;
+    background: var(--Primary-colour, #7562E0);
+    width: 120px;
+    height: 40px;
+    border: none;
+    font-family: var(--pop);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    color: #FFF;
+}
+.but button:hover{
+    border: 2px solid var(--Primary-colour, #7562E0);
+    background-color: transparent;
+    color: #000;
+}
+.batt{
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.hom{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    margin-top: 150px;
 }
 
 @media(max-width: 780px){
-    .hi{
-        font-size: 27px;
-    }
-    .hip{
-        font-size: 27px;
-        margin-top: -48px;
-    }
-    .hype{
-        font-size: 27px;
-        margin-top: -48px;
-    }
-    .name h2{
-        font-size: 27px;
-        margin-top: -48px;
-    }
     .im{
         width: 300px;
     }
     
 }
 @media(max-width: 500px) {
-    .hi{
-        font-size: 12px;
-    }
-    .hip{
-        font-size: 12px;
-        margin-top: -52px;
-    }
-    .hype{
-        font-size: 12px;
-        margin-top: -52px;
-    }
     .im{
-        width: 200px;
-        border: 3px solid #E70FAA;
-    }
-    .name h2{
-        font-size: 12px;
-    }
-    .fatai{
-        margin-top: -52px;
-    }
-    .web{
-        margin-top: 30px;
-    }
+        display: none;   
 }
-/* @media(max-width: 1030px){
-  .im{
-    width: 310px;
-  }  
-} */
+.hom{
+    flex-direction: column;
+    margin-top: 20px;
+}
+.deve p{
+    width: 100%;
+}
+.deve h2{
+    font-size:35px ;
+}
+.deve h3{
+    font-size: 22px;
+}
+}

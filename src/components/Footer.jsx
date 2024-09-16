@@ -11,8 +11,8 @@ const Footer = () => {
           <div id='wall'>
               <div><img src={logo} alt="" /></div>
               <div className='six'>
-                  <Link>+234 706 802 1016</Link>
-                  <Link>adekoyaprecious180@gmail.com</Link>
+                  <a href="tel:+2347068021016">+234 706 802 1016</a>
+                  <a href="mailto:adekoyaprecious180@gmail.com">adekoyaprecious180@gmail.com</a>
               </div>
               <div id='six'>
                   <a href="https://github.com/adekoya1-1" target="_blank"><img src={vector} alt="" /></a>
@@ -23,13 +23,13 @@ const Footer = () => {
           <div className='wall'></div>
           <div className='prestige'>
               <div className='href'>
-                  <a href="">Home</a>
-                  <a href="">Project</a>
-                  <a href="">About</a>
-                  <a href="">Technolgies</a>
+                  <a href="#home">Home</a>
+                  <a href="#project">Project</a>
+                  <a href="#about">About</a>
+                  <a href="#techs">Technolgies</a>
               </div>
               <div>
-                  <p>Built by <a href="">prestige tech</a></p>
+                  <p className='hrefs'>Built by <a href="https://adekoyapreciousabdulfatai.vercel.app" target="_blank">prestige tech</a></p>
               </div>
           </div>
     </div>
