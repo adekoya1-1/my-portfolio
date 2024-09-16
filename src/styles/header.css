@@ -31,8 +31,34 @@ margin-left: 51px
     position: sticky;
     top: 0;
 }
+.download button{
+    width: 200px;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: transparent;
+    color: blue; 
+    font-family: var(--asap);
+    font-size: 18px;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.download{
+    text-decoration: none;
+}
+
 @media (max-width: 1030px) {
-    #hope{
-        margin-left: 150px;
+    #hope {
+            margin-left: 150px;
+        }
+}
+@media(max-width:769px){
+#hope {
+        margin-left: 0px;
     }
+
+    .download {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+}
 }
