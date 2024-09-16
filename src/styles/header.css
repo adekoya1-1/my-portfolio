@@ -1,0 +1,36 @@
+.lin{
+    text-decoration-line: none;
+    color: #666;
+    text-align: center;
+    font-family: var(--DM);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 26px;
+}
+.logo{
+    margin-right: 306px;
+}
+/* .tww{
+margin-left: 51px
+} */
+.head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#hope{
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    margin-left: 500px;
+}
+.wis{
+    width: 100%;
+}
+@media (max-width: 1030px) {
+    #hope{
+        margin-left: 150px;
+    }
+}

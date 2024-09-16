@@ -1,0 +1,50 @@
+.seb{
+    width: 22%;
+    border-radius: 16px;
+    border: 3px solid #BDBDBD;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.20);
+    height:  338px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.seb:hover{
+
+border: 3px solid #7562E0;
+}
+.seb h5{
+    color: #000;
+    font-family: var(--pop);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 185%;
+    text-align: center;
+}
+.seb p{
+    color: #000;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+}
+.seb img{
+    margin-top: 76px;
+}
+#seb{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+@media(max-width:500px){
+    #seb{
+        flex-direction: column;
+        align-items: center;
+    }
+    .seb{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}

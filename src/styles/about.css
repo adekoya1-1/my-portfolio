@@ -1,0 +1,51 @@
+.five h1{
+    color: var(--Primary-colour, #7562E0);
+    font-family: var(--pop);
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 600;
+}
+.five h6{
+    color: black;
+    font-family: var(--pop);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 20px;
+    width: 75%;
+}
+.five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#me h2{
+    color: #42446E;
+    font-family: var(--pop);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+}
+#me p{
+    color: black;
+    font-family: var(--pop);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+}
+@media(max-width:600px){
+    .five{
+        flex-direction: column;
+    }
+    .five h1{
+        text-align: center;
+    }
+    .five h6{
+        width: 100%;
+    }
+    #me p{
+        text-align: justify;
+        font-size: 16px;
+    }
+}

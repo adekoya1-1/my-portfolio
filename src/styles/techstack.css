@@ -1,0 +1,62 @@
+.nolu h2{
+    color:#42446E;;
+    text-align: center;
+    font-family: var(--pop);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+}
+.nolu p{
+    color: var(--dark-content, #666);
+    text-align: center;
+    font-family: var(--pop);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+.git img{
+    width: 120px;
+}
+.git {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.gits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 48%;
+    margin-bottom: 10px;
+}
+.vs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+@media(max-width:500px){
+    .git img{
+        width: 80px;
+    }
+    .gits img{
+        width: 80px;
+    }
+    .git{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .gits{
+        width: 98%;
+    }
+    .vs{
+        flex-direction: column;
+    }
+    .nolu h2{
+    font-size: 28px;
+}
+.nolu p{
+    font-size: 18px;
+}
+}
