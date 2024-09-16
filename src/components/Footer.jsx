@@ -15,7 +15,7 @@ const Footer = () => {
                   <Link>adekoyaprecious180@gmail.com</Link>
               </div>
               <div id='six'>
-                  <a href="" target="_blank"><img src={vector} alt="" /></a>
+                  <a href="https://github.com/adekoya1-1" target="_blank"><img src={vector} alt="" /></a>
                   <a href="https://twitter.com/AdekoyaPre3073" target="_blank"><img src={tweet} alt="" /></a>
                   <a href="https://www.linkedin.com/in/adekoya-precious-7a9b71284/" target="_blank"><img src={int} alt="" /></a>
               </div>
